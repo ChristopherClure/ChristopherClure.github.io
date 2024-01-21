@@ -1,7 +1,7 @@
 ---
-title: Turning python scripts into linux daemons
+title: Fun ai image generation
 categories: [programming]
-tags: [ai, stable diffusion]
+tags: [ai, stable diffusion, art]
 ---
 
 # Some fun ai image generation

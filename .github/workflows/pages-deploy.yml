@@ -42,7 +42,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ruby # latest stable release
+          ruby-version: "3.4" # latest 3.4.x; chirpy requires Ruby ~> 3.1, so Ruby 4 won't resolve
           bundler-cache: true
 
       - name: Build site

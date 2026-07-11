@@ -4,6 +4,9 @@ source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 7.5"
 
+# Default gems that some distros (e.g. Arch) no longer ship with Ruby
+gem "erb"
+
 group :test do
   gem "html-proofer", "~> 5.0"
 end
